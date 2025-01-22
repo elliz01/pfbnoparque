@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Ellizabeth"/>
+		<meta name="keywords" contet="PFB, parque, aulas, ar livre, atividades físicas"/>
+		<meta name="description" contet="Aulas de ProgressiveFitBall no Parque da Cidade aos finais de semanas" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Agendamentos</title>
+	</head>
+	<body>
+		<header>
+		 <img src="img/banner.png">
+		</header>
+
+			<nav>
+				<a class="a-menu" href="index.html">HOME</a>
+				<a class="a-menu" href="index.html#pag-beneficios">BENEFÍCIOS</a>
+				<a class="a-menu" href="index.html#pag-modalidade">MODALIDADES</a>
+				<a class="a-menu" href="index.html#pag-treinos">TREINOS</a>
+				<a class="a-menu" href="#">AGENDAMENTOS</a>
+			</nav>
+
+			<section id="pag-agendamentos">
+
+				<h1>Agendamentos</h1> 
+		
+				<p>Agende uma aula experimental grátis</p>
+
+				<form name="" method="" action="">
+					<label for="nome">Nome:</label><br>
+					<input id="nome" type="text" name="nome" size="80"placeholder="digite seu nome completo" autofocus required>
+
+					<label for="email">E-mail:</label><br>
+					<input id=email type="email" name="email" size="80" placeholder="nome@gmail.com">
+
+					<label for="senha">Senha:</label><br>
+					<input id=senha type="password" name="senha" placeholder="somente números" size="80">
+
+					<label for="celular">Celular:</label><br>
+					<input id="celular" type="tel" name="celular" placeholder="(DD) 99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" size="80">
+
+					<label for="data">Data:</label>
+					<input id="data" type="date" name="data">
+
+					<label for="hora">Hora:</label>
+					<input id="hora" type="time" name="hora">
+
+					<label for="aula">Aulas:</label>
+					<input id="aula" type="number" name=aulas min="1" max="10" step="1">
+
+					<label for="nivel">Nível:</label>
+					<select id="nivel" name="nivel">
+						<option>Selecione...</option>
+						<option value="iniciante">Iniciante</option>
+						<option value="basico">Básico</option>
+						<option value="intermediario">Intermediário</option>
+						<option value="avancado">Avançado</option>
+					</select>
+
+					<fieldset>
+						<legend>Gênero:</legend>
+						<input type="radio" name="genero" value="M"><label for="M">Masculino</label>
+						<input type="radio" name="genero" value="F"><label for="F">Feminino</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>Atividades:</legend>
+						<input id="musc" type="checkbox" name="atividades"><label for="musc">Musculação</label>
+						<input id="pil" type="checkbox" name="atividades"><label for="pil">Pilates</label>
+						<input id="Yoga" type="checkbox" name="atividades"><label for="yoga">Yoga</label>
+						<input id="corr" type="checkbox" name="atividades"><label for="corr">Corrida</label>
+					</fieldset>
+
+					<label for="msg">Mensagem:</label>
+					<textarea id="msg" cols="50" rows="4"></textarea>
+
+					<p>
+						<input type="submit" name="btn-agendar" value="AGENDAR">
+						<input type="reset" name="btn-cancelar" value="CANCELAR">
+					</p>
+
+				</form>
+			</section>
+
+		<footer>
+			<p >Deselvovido por <a href="https://youtu.be/466SEerKbNM?si=-5KOvm9g1k15mVgB" target="_blank">xxxxxxxxxxxx</a> - 2024</p>
+		</footer>
+	</body>
+</html>
